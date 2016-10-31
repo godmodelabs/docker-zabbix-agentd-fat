@@ -1,4 +1,4 @@
-FROM godmodelabs/docker-zabbix-agentd:latest
+FROM godmodelabs/docker-zabbix-agentd:zabbix32
 MAINTAINER it-operations@boerse-go.de
 
 ENV INSTALL_GEMS="rbvmomi mysql2 zabbixapi"
